@@ -3,18 +3,18 @@ import { Shield, Code2, Network } from "lucide-react";
 const features = [
   {
     icon: Shield,
-    title: "Privacy",
-    description: "Built on TEN's privacy-first blockchain for true confidential identity."
+    title: "Encryption First",
+    description: "All name data is end-to-end encrypted by default on TEN's secure infrastructure."
   },
   {
     icon: Code2,
-    title: "Programmability",
-    description: "Extend your name with smart contracts and custom logic."
+    title: "Programmable Identity",
+    description: "Names can interact with dApps, contracts, or agents natively."
   },
   {
     icon: Network,
-    title: "Ecosystem Identity",
-    description: "One name across every dApp and protocol in the TEN network."
+    title: "TEN-Native",
+    description: "Runs on TEN's encrypted L2 infrastructure for speed and confidentiality."
   }
 ];
 
@@ -41,7 +41,7 @@ export const WhyTENNIS = () => {
                 animationDelay: `${index * 0.15}s`
               }}
             >
-              <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-primary/10 mb-6 group-hover:bg-primary/20 transition-all duration-300 group-hover:scale-110 animate-float-slow">
+              <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-primary/10 mb-6 group-hover:bg-primary/20 transition-all duration-300 group-hover:scale-110">
                 <feature.icon className="w-10 h-10 text-primary" strokeWidth={2} />
               </div>
               

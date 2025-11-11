@@ -15,22 +15,28 @@ export const Hero = () => {
         <div className="absolute inset-0 bg-gradient-glow" />
       </div>
 
-      {/* Floating tennis balls */}
-      <img 
-        src={floatingBall}
-        alt=""
-        className="absolute top-1/4 left-1/4 w-16 h-16 animate-float opacity-80"
-      />
-      <img 
-        src={floatingBall}
-        alt=""
-        className="absolute top-1/3 right-1/4 w-20 h-20 animate-float-slow opacity-70"
-      />
-      <img 
-        src={floatingBall}
-        alt=""
-        className="absolute bottom-1/4 left-1/3 w-12 h-12 animate-bounce-soft opacity-60"
-      />
+      {/* Floating tennis balls with transparency */}
+      <div className="absolute top-1/4 left-1/4 w-16 h-16 animate-float opacity-80 mix-blend-normal">
+        <img 
+          src={floatingBall}
+          alt=""
+          className="w-full h-full object-contain drop-shadow-lg"
+        />
+      </div>
+      <div className="absolute top-1/3 right-1/4 w-20 h-20 animate-float-slow opacity-70 mix-blend-normal">
+        <img 
+          src={floatingBall}
+          alt=""
+          className="w-full h-full object-contain drop-shadow-lg"
+        />
+      </div>
+      <div className="absolute bottom-1/4 left-1/3 w-12 h-12 animate-float opacity-60 mix-blend-normal">
+        <img 
+          src={floatingBall}
+          alt=""
+          className="w-full h-full object-contain drop-shadow-lg"
+        />
+      </div>
 
       {/* Hero content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto animate-fade-in">

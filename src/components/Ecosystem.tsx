@@ -14,10 +14,13 @@ export const Ecosystem = () => {
     <section className="py-24 px-4 bg-gradient-to-b from-secondary/30 to-accent/20">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-5xl md:text-6xl font-bold text-center mb-4 text-foreground">
-          Integrated Ecosystem
+          Ecosystem & Integrations
         </h2>
-        <p className="text-xl text-center text-muted-foreground mb-16 max-w-2xl mx-auto">
+        <p className="text-xl text-center text-muted-foreground mb-6 max-w-2xl mx-auto">
           Your TENNIS name works seamlessly across the entire TEN network.
+        </p>
+        <p className="text-center text-sm text-muted-foreground/80 mb-16">
+          Built with TEN's Encryption SDK
         </p>
         
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">

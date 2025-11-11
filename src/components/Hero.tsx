@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroLandscape from "@/assets/hero-tennis-landscape.jpg";
-import floatingBall from "@/assets/tennis-ball-transparent.png";
+import floatingBall from "@/assets/tennis-ball.png";
 
 export const Hero = () => {
   return (

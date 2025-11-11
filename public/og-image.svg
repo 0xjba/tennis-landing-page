@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#133f56" />
+      <stop offset="100%" stop-color="#0b8f77" />
+    </linearGradient>
+    <linearGradient id="ball" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f9f871" />
+      <stop offset="100%" stop-color="#d5e756" />
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feOffset dx="0" dy="12" in="SourceAlpha" result="offset" />
+      <feGaussianBlur in="offset" stdDeviation="18" result="blur" />
+      <feColorMatrix
+        in="blur"
+        type="matrix"
+        values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0   0 0 0 0.25 0"
+      />
+      <feBlend in="SourceGraphic" mode="normal" />
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" rx="40" />
+  <g transform="translate(900 315)">
+    <circle cx="0" cy="0" r="150" fill="url(#ball)" filter="url(#shadow)" />
+    <path
+      d="M-70 -130c40 25 60 64 60 115s-20 90-60 115M70 -130c-40 25-60 64-60 115s20 90 60 115"
+      fill="none"
+      stroke="#f5f3a7"
+      stroke-width="16"
+      stroke-linecap="round"
+    />
+  </g>
+  <text x="140" y="250" font-family="Space Grotesk, 'Segoe UI', sans-serif" font-weight="700" font-size="96" fill="#ffffff">
+    TENNIS
+  </text>
+  <text x="140" y="330" font-family="Space Grotesk, 'Segoe UI', sans-serif" font-weight="500" font-size="36" letter-spacing="0.12em" fill="#f9f871">
+    ON-CHAIN IDENTITY FOR TEN
+  </text>
+  <text x="140" y="420" font-family="Space Grotesk, 'Segoe UI', sans-serif" font-size="30" fill="#e2f7ef">
+    Own your name. Guard your privacy. Show your game.
+  </text>
+</svg>
+

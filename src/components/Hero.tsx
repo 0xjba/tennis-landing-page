@@ -47,7 +47,7 @@ export const Hero = () => {
         </h1>
         
         <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Your Identity. Encrypted by TEN
+          TEN Naming Intents Service
         </p>
         
         <Button 

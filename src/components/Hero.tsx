@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroLandscape from "@/assets/hero-tennis-landscape.jpg";
-import floatingBall from "@/assets/floating-tennis-ball.png";
+import floatingBall from "@/assets/tennis-ball-transparent.png";
 
 export const Hero = () => {
   return (
@@ -47,7 +47,7 @@ export const Hero = () => {
         </h1>
         
         <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Own your on-chain identity — playful, private, permanent.
+          Your Identity. Encrypted by TEN
         </p>
         
         <Button 
